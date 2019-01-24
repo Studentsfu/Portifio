@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 100vh;
+    widows: 100vw;
+    background-image: url(../img/bg_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+}
+
+#wrap_center {
+    height: 100vh;
+    width: 70.2vw;
+    margin: 0 auto;
+    padding-top: 9.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.86vmax;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#title_header {
+    padding: 0;
+    margin: 0;
+    width: 36.5vh;
+    margin-top: 25.4vh;
+}
+
+#title_header p {
+    width: 36.5vh;
+    margin: 0;
+    padding: 0;
+    font-size: 6.2vh;
+    color: #fff;
+}
+p#text { 
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 5.2vh;
+    width: 47.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 4.5vh;
+}
+
+#btn_header { 
+    background-origin: none;
+    background : #256dc2;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    width: 25vh;
+    border-color: #256dc2;
+    border-radius: 20vw;
+    outline: none;
+
+}
+#btn_header a { 
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
